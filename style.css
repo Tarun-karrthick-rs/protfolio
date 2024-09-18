@@ -1,11 +1,11 @@
-/* General Styles */
+
 body {
-    color: #333;
+    color: #eee; 
     line-height: 1.6;
     font-size: 18px;
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #111; 
 }
 
 html {
@@ -28,15 +28,15 @@ ul {
     list-style: none;
 }
 
-/* Header Styles */
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
-    border-bottom: 2px solid #444;
+    background-color: #444; 
+    color: #000; 
+    border-bottom: 2px solid #000; 
     z-index: 1000;
     padding: 10px 0;
     height: 70px;
@@ -47,7 +47,7 @@ header {
 
 .logo a {
     font-size: 22px;
-    color: #fff;
+    color: #000; 
     margin-left: 20px;
     font-weight: bold;
 }
@@ -70,7 +70,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #ff00ff;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -79,37 +79,40 @@ nav a {
 
 nav a i {
     margin-right: 10px;
+    color: #ff00ff;
 }
 
 nav a:hover {
-    color: #f0a500;
+    color: #fff; 
 }
 
-/* Main Content Styles */
+
 .main-content {
     margin-top: 80px;
     padding: 30px;
-    background-color: #fff;
+    background-color: #222; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: #ff00ff; 
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #f0a500;
+    border-bottom: 2px solid #ff00ff;
     padding-bottom: 10px;
-    color: #333;
+    color: #ff00ff;
 }
 
 h3 {
     font-size: 28px;
     margin-bottom: 15px;
+    color: #ff00ff; 
 }
 
 section {
@@ -117,7 +120,7 @@ section {
     margin-bottom: 50px;
 }
 
-/* Skills Section */
+
 .parent {
     display: flex;
     flex-wrap: wrap;
@@ -126,14 +129,14 @@ section {
 
 .child {
     flex: 1 1 calc(33.333% - 20px);
-    background-color: #333;
-    color: #fff;
+    background-color: #000;
+    color: #ff00ff; 
     padding: 20px;
     border-radius: 5px;
     text-align: center;
 }
 
-/* Projects Section */
+
 .proj {
     display: flex;
     flex-wrap: wrap;
@@ -141,28 +144,28 @@ section {
 }
 
 .singleproj {
-    background-color: #444;
-    color: #fff;
+    background-color: #111; 
+    color: #ff00ff; 
     padding: 20px;
     border-radius: 5px;
     width: calc(33.333% - 20px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
-/* Certifications Section */
 .certifications ul {
     padding-left: 20px;
     font-size: 18px;
+    color: #ff00ff;
 }
 
 .certifications li {
     margin-bottom: 10px;
 }
 
-/* Contact Section */
 .contact-list {
     padding-left: 20px;
     font-size: 18px;
+    color: #fff; 
 }
 
 .contact-list li {
@@ -170,19 +173,19 @@ section {
 }
 
 .contact-list a {
-    color: #333;
+    color: #fff; 
     font-weight: 500;
 }
 
 .contact-list a:hover {
-    color: #f0a500;
+    color: #ff00ff;
 }
 
 .contact-list i {
     margin-right: 10px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .parent, .proj {
         flex-direction: column;
